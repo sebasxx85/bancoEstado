@@ -1,31 +1,43 @@
 <div class="onboard-container">
     <form>
-        <h1 class="titulo">Ingresa tu domicilio</h1>
-      <div class="input-group">
-        <label for="region">Región</label>
-        <input type="text" id="region" name="region" placeholder="Selecciona una región">
-      </div>
-      <div class="input-group">
-        <label for="villa">Villa, población o sector (opcional)</label>
-        <input type="text" id="villa" name="villa" placeholder="Ingresa villa, población o sector">
-      </div>
-      <div class="input-group">
-        <label for="numero">Número</label>
-        <div class="half-input">
-          <input type="text" id="numero" name="numero" placeholder="Ingresa número">
+        <h2 class="titulo">Ingresa tu domicilio</h2>
+        <div class="input-group">
+            <label for="region">Región</label>
+            <input type="text" id="region" name="region"
+                placeholder="Selecciona una región">
         </div>
-        <div class="checkbox-container">
-          <input type="checkbox" id="sinNumero" name="sinNumero">
-          <label for="sinNumero">Sin número</label>
+        <div class="input-group">
+            <label for="villa">Villa, población o sector (opcional)</label>
+            <input type="text" id="villa" name="villa"
+                placeholder="Ingresa villa, población o sector">
         </div>
-      </div>
-      <a href="#" (click)="setDialogo($event)" class="ver"> Ver más / Ver menos</a>
-      <div class="dialog-container" *ngIf="mostrarDialogo">
-        <div class="dialog">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+        <div class="input-group">
+            <label for="numero">Número</label>
+            <div class="input-group2">
+                <div class="half-input">
+                    <input type="text" id="numero" name="numero"
+                        placeholder="Ingresa número">
+                </div>
+                <div class="checkbox-container2">
+                    <input type="checkbox" id="sinNumero" name="sinNumero">
+                    <label for="sinNumero">Sin número</label>
+                </div>
+            </div>
         </div>
-      </div>
-      <button class="custom-button">Continuar</button>
+
+        <a href="#" (click)="setDialogo($event)" class="ver"> Ver más / Ver
+            menos</a>
+        <div class="dialog-container" *ngIf="mostrarDialogo">
+            <div class="dialog">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.</p>
+            </div>
+        </div>
+        <button class="custom-button">Continuar</button>
     </form>
-  </div>
+</div>
