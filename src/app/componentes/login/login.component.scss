@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #3E50B4, #3E50B4); /* Cambiar colores a azul */
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    width: 500px;
+    height: 100vh; 
+    background-color: #3E50B4; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.welcome-message {
+    color: white;
+}
+
+.login-container input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-container .custom-button {
+    width: 80%;
+    padding: 10px;
+    background-color: #fff; 
+    color: #B0B0B0; 
+    border: none;
+    border-radius: 35px; 
+    cursor: pointer;
+}
+
+.login-container .custom-button:hover {
+    background-color: #ddd; 
+}
+
+.forgot-password {
+    color: white;
+    margin-top: 20px;
+}

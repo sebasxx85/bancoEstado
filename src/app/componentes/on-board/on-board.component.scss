@@ -1,0 +1,86 @@
+.onboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Para alinear los elementos verticalmente */
+  height: 100vh;
+}
+
+form {
+  width: 300px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="checkbox"] {
+  width: 100%;
+  padding: 10px;
+}
+
+.half-input {
+  width:40%;
+  margin-right: 10px; 
+}
+
+.checkbox-container {
+  align-items: center;
+}
+
+.checkbox-container label {
+  margin-left: 5px; 
+}
+
+.dialog-container {
+  background-color: #ECEEF8;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.dialog {
+  margin-top: 27px;
+  text-align: left;
+}
+
+.dialog p {
+  margin-bottom: 17px;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.custom-button {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: #B0B0B0; 
+  color: white;
+  border: none;
+  border-radius: 20px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.custom-button:hover {
+  background-color: #979797; 
+}
+
+.ver{
+  color: #3E50B4;
+  cursor: pointer; 
+  text-decoration: none; 
+  margin-bottom: 20px;
+}
